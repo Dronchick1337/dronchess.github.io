@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" xml:lang="en" lang="en">
+<head>
+<title>Спортивное питание</title>
+<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'/><![endif]-->
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" name="viewport">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,400italic,700,500italic,700italic,900,900italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300" rel="stylesheet" type="text/css">
+<link href="materials/css/magnific-popup.css" rel="stylesheet" type="text/css">
+<link href="materials/css/style.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="empty.ico" type="image/x-icon">
+<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Russo+One&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+<link href="materials/css/modal.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="materials/js/modal.js"></script>
+<script type="text/javascript" src="js/init.js"></script>
+
+</head>
+<body>
+<link type="text/css" rel="stylesheet" href="css/l_all.css@v=3">
+<script type="text/javascript" src="js/jquery-ui-1.11.4.min.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.latest.js"></script>
+<script type="text/javascript" src="js/l_widgets.js"></script>
+<script type="text/javascript" src="js/l_functions.js@v=8"></script>
+<script src="inputmask_4_x/jquery.inputmask.bundle.min.js"></script>
+<script src="inputmask_4_x/inputmask/phone-codes/phone.simple.js@v=2"></script>
+<style>
+    .pl_next_order_page{ display: none; }
+</style>
+
+<div id="container">
+<div id="page">
+<div id="header" class="boxcommon trans-stroke">
+<div class="bricks-bg header-inner">
+<div class="row clearfix">
+<div class="head-left">
+<div class="head-left-in">
+<div class="clearfix header-logo">
+<div class="logo"><!--<img style="height: 100px;" src="materials/img/-20170718100206.png" alt="logo">LOGO--></div>
+<div class="quality-logo"><img style="padding-left: 150px;" src="materials/img/quality-img.png" alt="quality"></div>
+</div>
+<div class="head-content">
+<div class="elite-head">
+<div style="text-align: center;" class="buildmore font-depression">СПОРТИВНОЕ ПИТАНИЕ<span class="font-destroy-regular"> </span></div>
+<div style="text-align: center;" class="musclemass font-depression">Premium Quality</div>
+
+</div>
+<div class="list-in-roundbox">
+<ul>
+<li class="clearfix" style="font-size: 18px;"><span class="round-per font-daylater">100<small>%</small></span>Способен заменить приём пищи <span class="textred"> </span></li>
+<li class="clearfix list-roundboxcontent"><span class="round-per font-daylater">52<small>%</small></span><span class="list-roundboxcontent-in" style="font-size: 18px;">Ускоряет рост мышечной на <span class="textred">52% </span><br> Замедляет катаболизм на <span class="textred">80% </span><br> Восстановление лучше на <span class="textred">60% </span> </span></li>
+<li class="clearfix list-roundboxcontent-in" style="font-size: 18px;"><span class="round-per font-daylater">40<small>%</small></span>Цены ниже рынка на <span class="textred">40%</span> без потери качества! </li>
+</ul>
+</div>
+</div>
+
+</div>
+<div class="head-man-img"><img src="materials/img/header-bg-img.png" alt="header-img"></div>
+</div>
+<div class="form-right">
+<div class="form-main">
+<div class="form-head-txt">
+<span><span class="font">ЗАПОЛНИТЕ ФОРМУ</span>
+</div>
+ <form action="send.php" method="post" class="form-field-main">
+<div class="formLine">
+<span style="font:15px Open sans; font-style:italic; font-weight:bold; color:red !important; ">Страна:</span><br>
+<select name="order[country]" id="country" class="country_select">
+<option value='ua'>Украина</option>
+<option value='ru' selected="selected">Россия</option>
+<option value='kz'>Казахстан</option>
+<option value='by'>Беларусь</option>
+</select>
+</div>
+<div class="formLine">
+<span style="font:15px Open sans; font-style:italic; font-weight:bold; color:red !important; ">Ваши ФИО:</span><br>
+<input type="text" id="ship_firstname" name="fio" maxlength="32" class="pl_field_fio" />
+</div>
+<a style="color:black !important; font-size:11px; margin-left:4px;"></a>
+<div class="formLine">
+<span style="font:15px Open sans; font-style:italic; font-weight:bold; color:red !important; ">Номер телефона:</span><br>
+<input type="text" id="phone" name="phone" class="pl_field_phone" />
+<span style="font:15px Open sans; font-style:italic; font-weight:bold; color:red !important; ">Комментарии к доставке:</span><br>
+<input type="text" id="comment" name="comment" class="pl_field_comment" />
+</div>
+<!--<a style="color:black !important; font-size:11px; margin-left:4px;"></a><br>
+<img src="materials/img/price.png" style="position:absolute; padding-left:139px; margin-top:-12px;" />
+<span style="font:15px Open sans; font-style:italic; font-weight:bold; color:red !important; line-height: 3em; ">Старая цена:</span><br>
+<span style="  font-style:italic; line-height:0.1em; padding-left: 7px; color:#fff;font-size:20px;">
+<span class="price_land_s4 pl_product_old_price">1980</span>
+<span class="price_land_curr">руб.</span>
+</span>
+<img src="materials/img/line.png" style="position:absolute; margin-left: -70px; margin-top:-3px;" />
+<br>
+<span style="font:15px Open sans; font-style:italic; font-weight:bold; color:red !important; line-height: 2.95em; ">По акции:</span><br>
+<span style=" font-weight:bold; font-style:italic; padding-left: 7px;  color:#fff;font-size:20px;">
+<span class="price_land_s1 pl_product_price">990</span>
+<span class="price_land_curr">руб.</span>
+</span><br>-->
+<a href="index.html" class="order-btn">
+<button class="riskfree details_transaction" onclick="$(this).closest('form').submit();return false;">ЗАКАЗАТЬ!</button>
+</a>
+<input class="pl_full_discount_price" type="hidden" name="order[discount]" value="">
+<style>
+	.pl_field_address_info{
+		opacity: 0;
+	}
+</style>
+<input type="checkbox" name="order[address_info]" class="pl_field_address_info">
+<input type="hidden" name="order[advHash]" class="advHash">
+</form>
+<div class="formside-arrow"><img src="materials/img/formside-big-arrow.png" alt="formside-bigarrow"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="trans-stroke boxcommon howsection">
+<div class="dotted-bg">
+<div class="howsection-bg-img">
+<div class="row clearfix">
+<div class="howsection-content">
+<div class="head-howsection">
+
+<h1 class="font-daylater textred">Протеин</h1>
+
+</div> 
+<p> Эффект протеина заключается в том, что перевариваясь в организме, протеин распадается на аминоксилоты, из которых как раз синтезируются белковые молекулы организма, в том числе и мышечная ткань. Аминокислоты из протеина предотвращают разрушение мышц во время усиленных тренировок и способствуют активному росту мышц.</p>
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+<div class="boxcommon trans-stroke workout">
+<div class="workout-bg">
+<div class="row textcenter">
+<div class="beforeafter-box clearfix">
+<div class="beforeafter-img">
+<img src="materials/img/before-after-img.jpg" alt="img">
+</div>
+<div class="beforeafter-content">
+<p>“Всегда был не самым атлетичным мужчиной и вот решился заняться собой. Сначала пробовал заниматься силовыми тренировками без приёма спортивного питания, но знакомые посоветовали купить протеин, BCAA и креатин. Прошёл весь курс типичного "Качка" : от набора, до сушки. Сейчас смотря на свои фото «после» я не верю, что это мои фото! Это очень круто!”</p>
+<span class="client-name">- Андрей, один из первых клиентов</span>
+</div>
+</div>
+</div> 
+</div> 
+</div> 
+<div class="boxcommon trans-stroke steps">
+<div class="dotted-bg">
+<div class="row textcenter steps-in">
+<div class="steps-head">
+<div class="font-daylater steptoget"><span class="font">3</span> <span class="font">САМЫХ ЭФФЕКТИВНЫХ</span></div>
+<h3 class="font">добавки</h3>
+</div>
+<div class="clearfix stepbox-common">
+<div class="stepbox">
+<img src="materials/img/step-takepills-img.png" alt="ripped">
+<h5 class="font">Сывороточный протеин</h5>
+<p>Некоторые люди убеждены, что единственный способ набрать массу – это поглощать тонны углеводов. Но в мире бодибилдинга и тяжелой атлетики всем давно известно, что чистую мышечную массу невозможно набрать без потребления большого количества высококачественного белка. В этом плане сывороточный протеин является настоящим королем среди остальных добавок.</p>
+</div>
+<div class="stepbox">
+<img src="materials/img/step-workout-img.png" alt="ripped">
+<h5 class="font">ВСАА</h5>
+<p>При потреблении необходимого количества белка в сочетании с полезными незаменимыми аминокислотами в период анаболического окна вы обеспечите ваши мышцы дополнительным стимулом для максимального роста.</p>
+</div>
+<div class="stepbox">
+<img src="materials/img/step-get-ripped-img.png" alt="ripped">
+<h5 class="font">Креатин</h5>
+<p> В организме человека креатин в основном сосредоточен в мышцах, где выполняет одну из наиболее важных функций – быстрое производство АТФ (аденозинтрифосфата), универсального источника энергии и основного переносчика энергии в клетке. К сожалению, АТФ не способен накапливаться в клетках в большом количестве, поскольку он постоянно расходуется на множество энергозатратных биохимических и физиологических процессов.</p>
+</div>
+</div>
+<div class="buttonwitharrow">
+<span class="button-arrowleft"><img src="materials/img/arrow-small-left.png" alt="arrow-small-left"></span>
+<button class="riskfree" onclick="javascript:location.href='#'">ЗАКАЗАТЬ!</button>
+<span class="button-arrowright"><img src="materials/img/arrow-small-right.png" alt="arrow-small-left"></span>
+</div>
+</div> 
+</div> 
+</div> 
+<div class="trans-stroke boxcommon whytouse">
+<div class="dotted-bg">
+<div class="whytouse-bg-img">
+<div class="row clearfix">
+<div class="whytouse-content">
+<div class="head-reason">
+<h4 class="font-daylater"><span class="font">10 причин использовать спортивное питание</span></h4>
+
+</div> 
+<ul class="list-check">
+<li>Способствует росту мышц и увеличению силы</li>
+<li>Увеличение выносливости</li>
+<li>Коктейль является натуральным жиросжигателем</li>
+<li>Питание организма витаминами и микроэлементами</li>
+<li>Улучшение восстановительных способностей организма</li>
+<li>Предотвращение распада мышечной массы</li>
+<li>Низкое содержание лактозы</li>
+<li>Низкое содержание углеводов и жиров</li>
+<li>Полная безопасность для здоровья</li>
+<li>Даёт быстрый и эффективный результат</li>
+</ul>
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+<div class="boxcommon trans-stroke elite-box">
+<div class="bricks-bg">
+<div class="clearfix row elite-box-in">
+<div class="elite-img-box">
+<img src="materials/img/elite-product-img.png" alt="elite">
+<button class="riskfree" onclick="javascript:location.href='#'">ЗАКАЗАТЬ!</button>
+</div>
+<div class="elite-content">
+<div class="elite-head">
+<div class="buildmore font-depression"><span class="font">ПОЛУЧИ СКИДКУ</span><span class="font-depression"><span class="font"> 30</span><span class="font-destroy-regular"><span class="font">%</span></div>
+<div class="musclemass font-depression"><span class="font">на первый заказ</span></div>
+
+<div class="list-in-roundbox">
+<ul>
+<li class="clearfix" style="font-size: 18px;"><span class="round-per font-daylater">100<small>%</small></span>Способен заменить приём пищи <span class="textred"> </span></li>
+<li class="clearfix list-roundboxcontent"><span class="round-per font-daylater">52<small>%</small></span><span class="list-roundboxcontent-in" style="font-size: 18px;">Ускоряет рост мышечной на <span class="textred">52% </span><br> Замедляет катаболизм на <span class="textred">80% </span><br> Восстановление лучше на <span class="textred">60% </span> </span></li>
+<li class="clearfix list-roundboxcontent-in" style="font-size: 18px;"><span class="round-per font-daylater">40<small>%</small></span>Цены ниже рынка на <span class="textred">40%</span> без потери качества! </li>
+</ul>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div> 
+<div class="footer_text" style="text-align:center;"><p style="color: white">Копирайт</p><br />
+<!--<a href="index.html#" modal="polit" style="color:#fff;">Политика конфиденциальности</a>
+</div>
+</div>
+<div id="polit" class="modal">
+<div class="modal-block">
+<div class="icon-close"></div>
+ <div class="title">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</div>
+<div class="content">
+<div class="padding">
+<p>Наш интернет-магазин уважительно относится к правам клиента. Соблюдается строгая конфиденциальность
+при оформлении заказа. Сведения надёжно сохраняются и защищены от передачи. </p>
+<p>Согласием на обработку данных клиента исключительно с целью оказания услуг является размещение заказа
+на сайте. </p>
+<p>К персональным данным относится личная информация о клиенте: домашний адрес; имя, фамилия, отчество;
+сведения о рождении; имущественное, семейное положение; личные контакты (телефон, электронная почта)
+и прочие сведения, которые
+перечислены в Законе РФ № 152-ФЗ «О персональных данных» от 27 июля 2006 г. </p>
+<p>Клиент вправе отказаться от обработки персональных данных. Нами в данном случае гарантируется
+удаление с сайта всех персональных данных в трёхдневный срок в рабочее время. Подобный отказ клиент
+может оформить простым электронным
+письмом на адрес, указанный на странице нашего сайта. </p>
+</div>
+</div> 
+</div>-->
+</div>
+<style>
+
+    
+        #ps-sale-pc-form { display: block; }
+        #ps-sale-mobile-form { display: none; }
+
+    
+</style>
+
+<script>
+    $(document).ready(function(){
+        var selector = '.pl_landing_geo_detect';
+        if($(selector).length > 0)
+        {
+            $('body').lpFunctions(
+                'detectGEOCity',
+                function(city){$(selector).text(city);},
+                "31.180.250.11"
+            );
+        }
+    });
+</script>
+<script>
+
+	$(function(){
+
+	    $('[name="phone"]').inputmask("ourphone");
+
+        if(window.errorMessage === undefined)
+        {
+            var errorMessage = function(msg)
+            {
+                alert(msg);
+                return false;
+            }
+        }
+
+		$('form').submit(function(){
+
+			
+			
+			
+			if($(this).find('[name="fio"]').length > 0)
+			{
+
+				var name = $(this).find('[name="fio"]').val();
+
+				var rename = /^[a-zA-Zа-яА-ЯёЁ ]*$/i;
+
+				if(name.length == 0)
+				{
+					return errorMessage('Вы не заполнили поле "Ф.И.О"');
+				}
+
+				if(!rename.test(name))
+				{
+					return errorMessage('Неверно заполнено поле "Ф.И.О"');
+				}
+
+			}
+
+			var phone = $(this).find('[name="phone"]').val();
+			var clear_phone = phone.replace(/[^0-9]/g,'');
+
+			if(phone.length == 0)
+			{
+				return errorMessage('Вы не заполнили поле "Телефон"');
+			}
+
+			if(clear_phone.length < 10)
+			{
+				return errorMessage('Введен слишком короткий номер телефона');
+			}
+
+			if(
+				clear_phone.length == 10 &&
+				(
+					clear_phone.indexOf('7') === 0 ||
+					clear_phone.indexOf('8') === 0
+				)
+			){
+				return errorMessage('Введен слишком короткий номер телефона');
+			}
+
+			if(
+				clear_phone.length == 11 &&
+				clear_phone.indexOf('7') !== 0 &&
+				clear_phone.indexOf('8') !== 0
+			){
+				return errorMessage('Введен слишком длинный номер телефона');
+			}
+
+			if(
+				clear_phone.length == 12 &&
+				clear_phone.indexOf('38') !== 0 &&
+				clear_phone.indexOf('37') !== 0
+			){
+				return errorMessage('Введен слишком длинный номер телефона');
+			}
+
+			if(clear_phone.length > 12)
+			{
+				return errorMessage('Введен слишком длинный номер телефона');
+			}
+
+			if(!$(this).find('[name="order[timezone]"]').length)
+			{
+                var timezone = $('body').lpFunctions('detectTimezone');
+                if(timezone)
+                {
+                    $('<input/>').attr({
+                        'name': 'order[timezone]',
+                        'type': 'hidden'
+                    }).val(timezone).appendTo(this);
+                }
+            }
+			return true;
+		});
+
+	});
+
+</script>
+<script>
+	$(function(){
+		var country = 'ru',
+            $country = $('select[name="order[country]"]'),
+            $phone = $('input[name="phone"]'),
+            $fio = $('input[name="fio"]'),
+            $comment = $('input[name="comment"]'),
+            countriesCodes = {"ru":"+7","kz":"+7","ua":"+380","by":"+375"},
+            previousValue = '';
+
+		            $phone.val('+7');
+            $country.val(country);
+				$('form').submit(function() {
+			window.onbeforeunload = null;
+		});
+					
+		
+        $country.on('change',  function(event) {
+            var $closest = $(this).closest('form').find('input[name="phone"]');
+
+            previousValue = $closest.val().replace(/\D/g, '');
+
+            if(countriesCodes.hasOwnProperty(event.target.value) && previousValue.length < 4) {
+                $closest.val(countriesCodes[event.target.value]);
+            }
+        })
+	});
+</script>
+
+</body>
+</html>
